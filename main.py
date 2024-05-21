@@ -5,7 +5,7 @@ import threading
 
 database_lock = threading.Lock()
 
-bot = telebot.TeleBot('7179310320:AAGIULBKIrzoE2pvpTuUJ00TBcYVyCD-I6s')
+bot = telebot.TeleBot('BOT_TOKEN')
 
 STATE_NONE, STATE_LOGIN, STATE_PASSWORD, STATE_REGISTERED = range(4)
 CHOOSING_PERSON, NOT_CHOOSING_PERSON = 1, 0
